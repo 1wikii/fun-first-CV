@@ -1,0 +1,207 @@
+
+body{
+   font-family: Rubik;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(106, 106, 219),rgb(206, 237, 245),rgb(106, 106, 219));
+}
+
+/* header */ 
+.c-nav{
+    background-color:rgb(29, 29, 100);
+    position: sticky;
+    top: 0;
+}
+.c-main,
+nav{
+    padding: 0;
+    top: 0;
+    background-color:rgb(243, 243, 243);
+    width: min(100% - 15px, 900px);
+    margin-inline: auto;
+}
+menu{
+   background-color:rgba(29,29,100);
+   padding:0;
+   margin: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+.li-personal-data{
+    margin-left: 30px;
+}
+li:hover{
+    background-color:rgba(15, 15, 73,0.2);
+    cursor: pointer;
+}
+li:active{
+   background-color:rgba(15, 15, 73);
+}
+menu:after{
+   background-color:rgba(15, 15, 73);
+}
+
+/* main */
+.c-main{
+  padding: 20px;
+   height: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+}
+
+.c-profil-pic{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+
+}
+
+.title-pic{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+.profil-pic{
+    width: 130px;
+    border-radius: 3px;
+    margin-left: 13px;
+    
+}
+
+.c-text-cv{
+   font-size: 50px;
+   font-weight: bold;
+   width: 79.8%;
+   margin: 5px;
+   text-align: center;
+   padding-top: 50px;
+   height: 128px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.c-personal-data,
+.c-education,
+.c-experience,
+.c-contact,
+.c-about,
+.c-skill{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 47%;
+    margin: 5px;
+    height: auto;
+    display: inline-block;
+
+   padding-top: 10px;
+   padding-left: 15px;
+}
+
+.sub-text{
+   display: block;
+   font-size: 20px;
+   font-weight: bold;
+}
+.edu-1,
+.edu-2,
+.expe-1,
+.expe-2,
+.cont-1,
+.cont-2,
+.abo-1,
+.abo2{
+   display: block;
+   margin-top: 10px;
+}
+
+.content-perdat{
+   margin-top: 20px;
+   margin-left: 10px;
+   display: inline-block;
+}
+.content-perdat-2{
+   display: inline-block;
+   margin-left: 40px;
+}
+.name,
+.myname{
+   display: block;
+   margin-bottom: 10px;
+}
+.edu-time{
+font-style: italic;
+margin-left: 5px;
+text-decoration: underline;
+}
+.content-edu,
+.content-expe,
+.content-cont,
+.content-about{
+   margin-top: 40px;
+   margin-left: 20px;
+}
+.content-expe,
+.content-cont{
+   height: 100px;
+}
+
+.wa-img,
+.email-img{
+   width: 30px;
+   vertical-align: middle;
+}
+
+.content-about{
+   text-align: justify;
+   margin-left: 100px;
+   display: block;
+}
+
+.skill-1,
+.skill-2{
+   font-weight: bold;
+   display: inline-block; 
+   margin-top: 20px;
+   margin-left: 40px;
+}
+.cpp,
+.html,
+.css{
+}
+
+/* footer */
+.c-footer{
+   background-color: rgba(15, 15, 73);
+   color: white;
+   height: 100px;
+   padding: 20px;
+}
+.sosmed{
+  font-size: 23px;
+  text-shadow: 0 0 6px rgb(255, 253, 253,0.6);
+  font-weight: bold;
+}
+.img-sosmed{
+   margin: 20px;
+   margin-left: 10px;
+}
+.ig,
+.fb,
+.github,
+.linkedin{
+   width: 40px;
+   margin-left: 10px;
+}
